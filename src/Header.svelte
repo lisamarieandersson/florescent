@@ -14,13 +14,12 @@
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     height: 6.125rem;
-    background-color: #f2efea;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
   img {
-    width: 10rem;
+    width: 12rem;
     height: auto;
     padding-left: 0.4rem;
   }
