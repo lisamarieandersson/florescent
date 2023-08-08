@@ -11,7 +11,7 @@
   ul {
     list-style: none;
     display: flex;
-    gap: 1.2rem;
+    gap: 1.6rem;
     font-size: 1.125rem;
     justify-content: center;
     padding-left: 0;
