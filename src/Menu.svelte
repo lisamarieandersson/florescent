@@ -1,0 +1,30 @@
+<div class="menu">
+  <ul>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Stockists</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
+
+<style>
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.125rem;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  li {
+    font-weight: 300;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
