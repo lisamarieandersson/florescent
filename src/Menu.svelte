@@ -8,6 +8,12 @@
 </div>
 
 <style>
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .menu {
+      display: none;
+    }
+  }
   ul {
     list-style: none;
     display: flex;
