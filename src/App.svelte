@@ -1,5 +1,6 @@
 <script lang="ts">
   import Header from './Header.svelte';
+  import Hero from './Hero.svelte';
   import ToppBanner from './ToppBanner.svelte';
 </script>
 
@@ -8,7 +9,9 @@
   <Header />
 </header>
 
-<main />
+<main>
+  <Hero />
+</main>
 
 <footer />
 
