@@ -6,7 +6,7 @@
 </script>
 
 <div class="header">
-  <div>
+  <div class="right-content">
     <div class="mobile-hamburger">
       <Hamburger
         --border-radius="0"
@@ -23,23 +23,27 @@
       alt="Florescent Logo"
     />
   </div>
-  <Menu />
-  <img
-    class="logo-mobile"
-    src="../logotyp-florescent.svg"
-    alt="Florescent Logo"
-  />
-  <span class="material-symbols-outlined"> shopping_bag </span>
+  <div class="centered-content">
+    <Menu />
+    <img
+      class="logo-mobile"
+      src="../logotyp-florescent.svg"
+      alt="Florescent Logo"
+    />
+  </div>
+  <div class="left-content">
+    <span class="material-symbols-outlined"> shopping_bag </span>
+  </div>
 </div>
 
 <style>
   .header {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     height: 6.125rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 0 1.5rem;
+    border: solid 0.025rem #000000;
   }
 
   .mobile-hamburger {
@@ -60,16 +64,19 @@
   .logo-mobile {
     display: none;
   }
+
+  .left-content {
+    text-align: right;
+  }
   .material-symbols-outlined {
     font-size: 2rem;
-    text-align: right;
   }
 
   /* Media query for mobile screens */
   @media (max-width: 768px) {
     .header {
-      padding-left: 1rem;
-      padding-right: 1rem;
+      padding-left: 0.938rem;
+      padding-right: 0.938rem;
     }
     .logo-desktop-tablet {
       display: none;
