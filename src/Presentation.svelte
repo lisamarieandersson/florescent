@@ -1,5 +1,4 @@
 <div class="presentation-container">
-  <!-- <div>hello</div> -->
   <div class="presentation-text">
     <h2>Your New Ritual Reset, refresh and create space for the self.</h2>
     <p>
@@ -15,19 +14,26 @@
 
 <style>
   .presentation-container {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr; */
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
     overflow: hidden;
     background-color: #f2efea;
-    padding: 4rem;
+    padding: 2.5rem 0;
     margin-top: 2.5rem;
   }
 
   .presentation-text {
+    max-width: 70%;
     text-align: center;
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .presentation-container {
+      padding: 2rem 0;
+      margin-top: 2rem;
+    }
   }
 </style>
