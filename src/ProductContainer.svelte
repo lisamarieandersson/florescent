@@ -35,12 +35,20 @@
   .product-list {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 2.5rem;
     max-width: 100%;
     overflow: hidden;
     padding: 0 1.5rem;
+    border: solid 0.025rem #000000;
+  }
+
+  /* Media query for tablet and larger screens */
+  @media (min-width: 768px) {
+    .product-list {
+      flex-wrap: wrap; /* Allow wrapping */
+    }
   }
 
   /* Media query for mobile screens */
