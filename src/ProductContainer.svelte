@@ -41,5 +41,7 @@
     margin-top: 2.5rem;
     max-width: 100%;
     overflow: hidden;
+    padding: 0 1.5rem;
+    /* border: solid 0.025rem #000000; */
   }
 </style>
