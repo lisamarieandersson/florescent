@@ -16,10 +16,14 @@
 <style>
   .product-card {
     text-align: center;
+    padding: 0 0.625rem;
+    max-width: calc(25% - 0.025rem);
+    box-sizing: border-box;
+    /* border: solid 0.025rem #000000; */
   }
 
   img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
   }
 
@@ -31,6 +35,7 @@
     border: solid 0.025rem #000000;
     padding: 1rem;
     text-transform: uppercase;
-    width: 70%;
+    width: 100%;
+    text-align: center;
   }
 </style>
