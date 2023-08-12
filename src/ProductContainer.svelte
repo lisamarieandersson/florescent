@@ -1,0 +1,45 @@
+<script lang="ts">
+  import ProductCard from './ProductCard.svelte';
+
+  const products = [
+    {
+      name: 'Rose Noir',
+      image: '../mob_rosenoir_edp-100_c_1.jpeg',
+      description: 'Rose Noir',
+    },
+    {
+      name: 'Bal D Afrique',
+      image: '../mob_baldafrique_edp-100_d_1.jpeg',
+      description: 'Bal D Afrique',
+    },
+    {
+      name: 'Blanche',
+      image: '../mob_blanche_edp-100_d.jpeg',
+      description: 'Blanche',
+    },
+    {
+      name: 'Sundazed',
+      image: '../mob_sundazed_edp-100_a.jpeg',
+      description: 'Sundazed',
+    },
+    // Add more products as needed
+  ];
+</script>
+
+<div class="product-list">
+  {#each products as product (product.name)}
+    <ProductCard {product} />
+  {/each}
+</div>
+
+<style>
+  .product-list {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-top: 2.5rem;
+    max-width: 100%;
+    overflow: hidden;
+  }
+</style>
