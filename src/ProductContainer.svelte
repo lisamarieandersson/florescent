@@ -22,7 +22,6 @@
       image: '../mob_sundazed_edp-100_a.jpeg',
       description: 'Sundazed',
     },
-    // Add more products as needed
   ];
 </script>
 
@@ -42,6 +41,15 @@
     max-width: 100%;
     overflow: hidden;
     padding: 0 1.5rem;
-    /* border: solid 0.025rem #000000; */
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .product-list {
+      flex-direction: column;
+      padding-left: 0.938rem;
+      padding-right: 0.938rem;
+      margin-top: 2rem;
+    }
   }
 </style>
