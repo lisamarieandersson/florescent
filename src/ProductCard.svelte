@@ -38,6 +38,15 @@
     text-align: center;
   }
 
+  /* Media query for tablet and larger screens */
+  @media (max-width: 940px) {
+    .product-card {
+      flex: 1 0 calc(50% - 1.25rem); /* Two products in a row with spacing */
+      margin: 0 0.625rem;
+      max-width: calc(50% - 1.25rem);
+    }
+  }
+
   /* Media query for mobile screens */
   @media (max-width: 768px) {
     .product-card {
