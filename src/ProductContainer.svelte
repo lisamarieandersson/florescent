@@ -44,13 +44,6 @@
     border: solid 0.025rem #000000;
   }
 
-  /* Media query for tablet and larger screens */
-  @media (min-width: 768px) {
-    .product-list {
-      flex-wrap: wrap; /* Allow wrapping */
-    }
-  }
-
   /* Media query for mobile screens */
   @media (max-width: 768px) {
     .product-list {
