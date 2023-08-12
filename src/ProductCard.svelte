@@ -19,7 +19,6 @@
     padding: 0 0.625rem;
     max-width: calc(25% - 0.025rem);
     box-sizing: border-box;
-    /* border: solid 0.025rem #000000; */
   }
 
   img {
@@ -37,5 +36,14 @@
     text-transform: uppercase;
     width: 100%;
     text-align: center;
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 768px) {
+    .product-card {
+      max-width: 100%;
+      padding: 0;
+      margin-bottom: 2rem;
+    }
   }
 </style>
