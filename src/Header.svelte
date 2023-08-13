@@ -18,12 +18,12 @@
       />
     </div>
     <img
-      class="logo-desktop-tablet"
+      class="logo-desktop"
       src="../logotyp-florescent.svg"
       alt="Florescent Logo"
     />
   </div>
-  <div class="centered-content">
+  <div class="centered-content centered-logo">
     <Menu />
     <img
       class="logo-mobile"
@@ -43,14 +43,14 @@
     align-items: center;
     height: 6.125rem;
     padding: 0 1.5rem;
-    border: solid 0.025rem #000000;
+    /* border: solid 0.025rem #000000; */
   }
 
   .mobile-hamburger {
     display: none;
   }
 
-  .logo-desktop-tablet {
+  .logo-desktop {
     padding-left: 0.5rem;
     width: 12rem;
     height: auto;
@@ -59,9 +59,6 @@
   .logo-mobile {
     width: 12rem;
     height: auto;
-  }
-
-  .logo-mobile {
     display: none;
   }
 
@@ -72,18 +69,24 @@
     font-size: 2rem;
   }
 
-  /* Media query for mobile screens */
+  /* Media query for mobile and tablet screens */
   @media (max-width: 768px) {
     .header {
       padding-left: 0.938rem;
       padding-right: 0.938rem;
     }
-    .logo-desktop-tablet {
+    .logo-desktop {
       display: none;
     }
 
     .logo-mobile {
       display: block;
+    }
+
+    .centered-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .mobile-hamburger {
       display: block;
