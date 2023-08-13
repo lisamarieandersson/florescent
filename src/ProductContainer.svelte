@@ -4,23 +4,39 @@
   const products = [
     {
       name: 'Rose Noir',
+      category: 'Perfume',
       image: '../mob_rosenoir_edp-100_c_1.jpeg',
-      description: 'Rose Noir',
+      price: 1500,
+      volume: '100 ml',
+      description:
+        'The fresh bitters of lime, elegance of bergamot, and calmness of cedarwood coexist and deliver a moment of refresh. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
     },
     {
       name: 'Bal D Afrique',
+      category: 'Perfume',
       image: '../mob_baldafrique_edp-100_d_1.jpeg',
-      description: 'Bal D Afrique',
+      price: 1500,
+      volume: '100 ml',
+      description:
+        'Epicene beauty blended with warmth of sweet suede, calming cedarwood, vanilla, and musk. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
     },
     {
       name: 'Blanche',
+      category: 'Perfume',
       image: '../mob_blanche_edp-100_d.jpeg',
-      description: 'Blanche',
+      price: 1500,
+      volume: '100 ml',
+      description:
+        'Serene and languid moments culminated by a harmony of vetiver, sandalwood, and fresh cardamom. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
     },
     {
       name: 'Sundazed',
+      category: 'Perfume',
       image: '../mob_sundazed_edp-100_a.jpeg',
-      description: 'Sundazed',
+      price: 1500,
+      volume: '100 ml',
+      description:
+        'A remembrance of the purest seasons through fresh, yet warm scents of neroli and orange blossom. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
     },
   ];
 </script>
@@ -41,11 +57,10 @@
     max-width: 100%;
     overflow: hidden;
     padding: 0 1.5rem;
-    border: solid 0.025rem #000000;
   }
 
   /* Media query for mobile screens */
-  @media (max-width: 768px) {
+  @media (max-width: 640px) {
     .product-list {
       flex-direction: column;
       padding-left: 0.938rem;
