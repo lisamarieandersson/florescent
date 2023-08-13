@@ -1,6 +1,6 @@
 <div class="presentation-container">
   <div class="presentation-text">
-    <h2>Your New Ritual Reset, refresh and create space for the self.</h2>
+    <h2>Fragrances for your everyday life.</h2>
     <p>
       The world around us is brimmed over with images, voices, and muddling
       messages from media. Yet with the line between reality and fiction being
