@@ -10,6 +10,7 @@
     align-items: center;
     max-width: 100%;
     overflow: hidden;
+    gap: 0.2rem;
   }
 
   .iris {
@@ -22,7 +23,7 @@
     height: auto;
   }
 
-  /* Media query for mobile screens */
+  /* Media query for mobile and tablet screens */
   @media (max-width: 768px) {
     .iris {
       display: none;
