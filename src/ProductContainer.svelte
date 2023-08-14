@@ -9,7 +9,7 @@
       price: 1500,
       volume: '100 ml',
       description:
-        'The fresh bitters of lime, elegance of bergamot, and calmness of cedarwood coexist and deliver a moment of refresh. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
+        'The fresh bitters of lime, elegance of bergamot, and calmness of cedarwood coexist and deliver a moment of refresh.',
     },
     {
       name: 'Bal D Afrique',
@@ -18,7 +18,7 @@
       price: 1500,
       volume: '100 ml',
       description:
-        'Epicene beauty blended with warmth of sweet suede, calming cedarwood, vanilla, and musk. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
+        'Epicene beauty blended with warmth of sweet suede, calming cedarwood, vanilla, and musk.',
     },
     {
       name: 'Blanche',
@@ -27,7 +27,7 @@
       price: 1500,
       volume: '100 ml',
       description:
-        'Serene and languid moments culminated by a harmony of vetiver, sandalwood, and fresh cardamom. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
+        'Serene and languid moments culminated by a harmony of vetiver, sandalwood, and fresh cardamom.',
     },
     {
       name: 'Sundazed',
@@ -36,7 +36,7 @@
       price: 1500,
       volume: '100 ml',
       description:
-        'A remembrance of the purest seasons through fresh, yet warm scents of neroli and orange blossom. World-class perfumers carefully select the quality ingredients to create fragrances for Florescent to perfectly depict the mood aspired by Florescent, inconspicuous, and naturally fresh.',
+        'A remembrance of the purest seasons through fresh, yet warm scents of neroli and orange blossom.',
     },
   ];
 </script>
