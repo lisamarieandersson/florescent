@@ -63,8 +63,7 @@
   @media (max-width: 640px) {
     .product-list {
       flex-direction: column;
-      padding-left: 0.938rem;
-      padding-right: 0.938rem;
+      padding: 0 0.938rem;
       margin-top: 2rem;
     }
   }
