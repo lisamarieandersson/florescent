@@ -5,7 +5,7 @@
   let open;
 </script>
 
-<div class="header">
+<div class="header-container">
   <div class="right-content">
     <div class="mobile-hamburger">
       <Hamburger
@@ -37,7 +37,7 @@
 </div>
 
 <style>
-  .header {
+  .header-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -71,7 +71,7 @@
 
   /* Media query for mobile and tablet screens */
   @media (max-width: 768px) {
-    .header {
+    .header-container {
       padding-left: 0.938rem;
       padding-right: 0.938rem;
     }
