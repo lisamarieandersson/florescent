@@ -16,6 +16,7 @@
   <Hero />
   <Presentation />
   <ProductContainer />
+  <Presentation />
 </main>
 
 <footer>
