@@ -10,7 +10,7 @@
     <div class="mobile-hamburger">
       <Hamburger
         --border-radius="0"
-        --layer-height="0.15rem"
+        --layer-height="0.10rem"
         --layer-spacing="0.5rem"
         --layer-width="1.7rem"
         --padding="0"
