@@ -81,6 +81,12 @@
     text-transform: uppercase;
     width: 100%;
     text-align: center;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #000000;
+    color: #ffffff;
   }
 
   /* Media query for tablet and smaller screens */
