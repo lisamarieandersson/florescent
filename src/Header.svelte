@@ -12,7 +12,7 @@
         --border-radius="0"
         --layer-height="0.10rem"
         --layer-spacing="0.5rem"
-        --layer-width="1.7rem"
+        --layer-width="1.6rem"
         --padding="0"
         bind:open
       />
@@ -41,9 +41,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    height: 6.125rem;
+    height: 5rem;
     padding: 0 1.5rem;
-    /* border: solid 0.025rem #000000; */
   }
 
   .mobile-hamburger {
@@ -66,14 +65,13 @@
     text-align: right;
   }
   .material-symbols-outlined {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   /* Media query for mobile and tablet screens */
   @media (max-width: 768px) {
     .header-container {
-      padding-left: 0.938rem;
-      padding-right: 0.938rem;
+      padding: 0 0.938rem;
     }
     .logo-desktop {
       display: none;
@@ -91,6 +89,17 @@
     .mobile-hamburger {
       display: block;
       padding-left: 0.5rem;
+    }
+  }
+
+  /* Media query for smaller mobile screens */
+  @media (max-width: 280px) {
+    .logo-mobile {
+      width: 9rem;
+    }
+
+    .material-symbols-outlined {
+      font-size: 2.1rem;
     }
   }
 </style>
