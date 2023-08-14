@@ -54,7 +54,7 @@
   }
 
   .description {
-    height: 9.2rem;
+    height: 4rem;
   }
 
   .line {
@@ -93,7 +93,7 @@
     }
 
     .description {
-      height: 8.2rem;
+      height: 3rem;
     }
   }
 
@@ -104,18 +104,11 @@
     }
 
     .description {
-      height: 6rem;
+      height: 3rem;
     }
 
     p {
       font-size: 0.75rem;
-    }
-  }
-
-  /* Media query for small mobile screens */
-  @media (max-width: 280px) {
-    .description {
-      height: 8.2rem;
     }
   }
 </style>
