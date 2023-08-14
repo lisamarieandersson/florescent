@@ -50,7 +50,7 @@
   }
 
   .logo-desktop {
-    padding-left: 0.5rem;
+    padding-left: 0.625rem;
     width: 12rem;
     height: auto;
   }
@@ -66,6 +66,7 @@
   }
   .material-symbols-outlined {
     font-size: 2.2rem;
+    padding-right: 0.1rem;
   }
 
   /* Media query for mobile and tablet screens */
