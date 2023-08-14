@@ -1,14 +1,6 @@
 <div class="footer-container">
   <div class="line" />
   <div class="footer-columns">
-    <div class="newsletter">
-      <h3>Subscribe</h3>
-      <div class="newsletter-form">
-        <input type="email" placeholder="hello@example.com" />
-        <button>Subscribe</button>
-        <p>Enter your email address to receive special offers!</p>
-      </div>
-    </div>
     <div class="info">
       <h3>Info</h3>
       <p>Shipping & Delivery</p>
@@ -32,9 +24,26 @@
       <p>Instagram</p>
       <p>Pinterest</p>
     </div>
+    <div class="newsletter">
+      <h3>Subscribe</h3>
+      <div class="newsletter-form">
+        <input type="email" placeholder="hello@example.com" />
+        <button>Subscribe</button>
+        <p>Enter your email address to receive special offers!</p>
+      </div>
+    </div>
   </div>
-  <div class="symbol-logo">
-    <img src="../symbol-florescent.svg" alt="symbol florescent" />
+  <div class="symbol-and-logo">
+    <img
+      class="symbol"
+      src="../symbol-florescent.svg"
+      alt="symbol florescent"
+    />
+    <img
+      class="logotype"
+      src="../logotyp-florescent.svg"
+      alt="logotype florescent"
+    />
   </div>
   <div class="copy"><p>© 2023 Florescent</p></div>
 </div>
@@ -42,14 +51,13 @@
 <style>
   .footer-container {
     margin-top: 2.5rem;
-    padding: 2.5rem 1.5rem;
+    padding: 2.5rem 2.125rem 0.5rem 2.125rem;
     background-color: #f2efea;
   }
 
   .footer-columns {
     display: grid;
-    grid-template-columns: auto 1fr 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr auto;
   }
 
   .line {
@@ -105,25 +113,29 @@
     color: #000000;
   }
 
-  .symbol-logo {
+  .symbol-and-logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+  }
+
+  .symbol {
     width: 6rem;
     height: auto;
     margin: 0 auto;
   }
 
-  .info {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .info p {
-    margin: 0.3rem;
+  .logotype {
+    padding-top: 0.8rem;
+    width: 6rem;
+    height: auto;
+    margin: 0 auto;
   }
 
   .copy {
     text-align: center;
+  }
+  .copy p {
+    font-size: 0.75rem;
   }
 </style>
