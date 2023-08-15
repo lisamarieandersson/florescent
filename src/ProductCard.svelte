@@ -82,6 +82,7 @@
     width: 100%;
     text-align: center;
     cursor: pointer;
+    color: #000000;
   }
 
   button:hover {
