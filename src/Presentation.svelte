@@ -39,7 +39,7 @@
   /* Media query for standard desktop screens */
   @media (max-width: 1440px) {
     .presentation-text {
-      max-width: 55%;
+      max-width: 45%;
     }
   }
 
