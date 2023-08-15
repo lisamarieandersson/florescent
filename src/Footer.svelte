@@ -62,9 +62,6 @@
   .footer-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr auto;
-    /* max-width: 90rem;
-    min-width: 59.75rem;
-    margin: 0 auto 0 auto; */
   }
 
   .line {
@@ -192,6 +189,15 @@
 
     .newsletter p {
       margin-top: 0.75rem;
+    }
+  }
+  /* Media query for smaller mobile screens */
+  @media (max-width: 280px) {
+    .newsletter-form input {
+      width: 11.875rem;
+    }
+    .newsletter-form button {
+      width: 13.738rem;
     }
   }
 </style>
