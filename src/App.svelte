@@ -16,7 +16,6 @@
   <Hero />
   <Presentation />
   <ProductList />
-  <Presentation />
 </main>
 
 <footer>
