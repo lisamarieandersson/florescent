@@ -69,7 +69,7 @@
     padding-right: 0.1rem;
   }
 
-  /* Media query for mobile and tablet screens */
+  /* Media query for tablet and mobile screens */
   @media (max-width: 768px) {
     .header-container {
       padding: 0 0.938rem;
