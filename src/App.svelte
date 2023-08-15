@@ -3,7 +3,7 @@
   import Header from './Header.svelte';
   import Hero from './Hero.svelte';
   import Presentation from './Presentation.svelte';
-  import ProductContainer from './ProductContainer.svelte';
+  import ProductList from './ProductList.svelte';
   import ToppBanner from './ToppBanner.svelte';
 </script>
 
@@ -15,7 +15,7 @@
 <main>
   <Hero />
   <Presentation />
-  <ProductContainer />
+  <ProductList />
   <Presentation />
 </main>
 
