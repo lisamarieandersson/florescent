@@ -42,7 +42,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     height: 5rem;
-    padding: 0 1.5rem;
+    padding: 0 49.375rem;
   }
 
   .mobile-hamburger {
@@ -66,7 +66,21 @@
   }
   .material-symbols-outlined {
     font-size: 2.2rem;
-    padding-right: 0.1rem;
+    padding-right: 0.106rem;
+  }
+
+  /* Media query for large desktop screens */
+  @media (max-width: 2560px) {
+    .header-container {
+      padding: 0 29.375rem;
+    }
+  }
+
+  /* Media queries for standard desktop screens */
+  @media (max-width: 1920px) {
+    .header-container {
+      padding: 0 1.5rem;
+    }
   }
 
   /* Media query for tablet and mobile screens */
