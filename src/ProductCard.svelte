@@ -89,7 +89,7 @@
     color: #ffffff;
   }
 
-  /* Media query for tablet and smaller screens */
+  /* Media query for smaller desktop and tablet screens */
   @media (max-width: 1024px) {
     .product-card {
       flex: 1 0 calc(50% - 1.25rem); /* Two products in a row with spacing */
