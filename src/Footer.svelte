@@ -51,14 +51,20 @@
 <style>
   .footer-container {
     margin-top: 2.5rem;
-    padding: 2.5rem 2.125rem 0.5rem 2.125rem;
+    padding: 2.5rem 50rem 1rem 50rem;
     background-color: #f2efea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2.5rem;
   }
 
   .footer-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr auto;
-    /* max-width: 90rem; */
+    /* max-width: 90rem;
+    min-width: 59.75rem;
+    margin: 0 auto 0 auto; */
   }
 
   .line {
@@ -140,8 +146,22 @@
     font-size: 0.75rem;
   }
 
-  /* Media query for mobile screens */
-  @media (max-width: 820px) {
+  /* Media query for large desktop screens */
+  @media (max-width: 2560px) {
+    .footer-container {
+      padding: 2.5rem 30rem 0.5rem 30rem;
+    }
+  }
+
+  /* Media queries for standard desktop screens */
+  @media (max-width: 1920px) {
+    .footer-container {
+      padding: 2.5rem 2.125rem 0.5rem 2.125rem;
+    }
+  }
+
+  /* Media query for tablet screens */
+  @media (max-width: 920px) {
     .footer-columns {
       display: flex;
       flex-direction: column;
@@ -153,6 +173,25 @@
 
     .symbol-and-logo {
       padding-top: 2rem;
+    }
+  }
+
+  /* Media query for tablet and mobile screens */
+  @media (max-width: 798px) {
+    .footer-container {
+      padding-top: 2rem;
+      margin-top: 2rem;
+    }
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 640px) {
+    .newsletter-form button {
+      width: 17.863rem;
+    }
+
+    .newsletter p {
+      margin-top: 0.75rem;
     }
   }
 </style>
