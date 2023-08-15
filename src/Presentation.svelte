@@ -25,11 +25,25 @@
   }
 
   .presentation-text {
-    max-width: 70%;
+    max-width: 25%;
     text-align: center;
   }
 
-  /* Media query for mobile screens */
+  /* Media query for large desktop screens */
+  @media (max-width: 2560px) {
+    .presentation-text {
+      max-width: 30%;
+    }
+  }
+
+  /* Media query for standard desktop screens */
+  @media (max-width: 1440px) {
+    .presentation-text {
+      max-width: 55%;
+    }
+  }
+
+  /* Media query for tablet and mobile screens */
   @media (max-width: 768px) {
     .presentation-container {
       padding: 2rem 0;
