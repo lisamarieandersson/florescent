@@ -8,7 +8,7 @@
 </div>
 
 <style>
-  /* Media query for mobile screens */
+  /* Media query for tablet and mobile screens */
   @media (max-width: 768px) {
     .menu {
       display: none;
