@@ -49,5 +49,9 @@
       padding: 2rem 0;
       margin-top: 2rem;
     }
+
+    .presentation-text {
+      max-width: 60%;
+    }
   }
 </style>
