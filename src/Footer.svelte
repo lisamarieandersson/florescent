@@ -58,6 +58,7 @@
   .footer-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr auto;
+    /* max-width: 90rem; */
   }
 
   .line {
@@ -137,5 +138,21 @@
   }
   .copy p {
     font-size: 0.75rem;
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 820px) {
+    .footer-columns {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+    }
+
+    .symbol-and-logo {
+      padding-top: 2rem;
+    }
   }
 </style>
