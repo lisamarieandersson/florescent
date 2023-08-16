@@ -25,8 +25,8 @@
     object-fit: cover;
   }
 
-  /* Media query for really large desktop screens */
-  @media (max-width: 3840px) {
+  /* Media query for really really large desktop screens */
+  @media (max-width: 4096px) {
     .hero-container {
       height: 102rem;
     }
