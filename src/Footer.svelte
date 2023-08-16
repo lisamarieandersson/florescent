@@ -51,7 +51,7 @@
 <style>
   .footer-container {
     margin-top: 4rem;
-    padding: 2.5rem 50rem 1rem 50rem;
+    padding: 4rem 50rem 1rem 50rem;
     background: #f2efea;
     display: flex;
     flex-direction: column;
@@ -146,14 +146,14 @@
   /* Media query for large desktop screens */
   @media (max-width: 2560px) {
     .footer-container {
-      padding: 2.5rem 30rem 0.5rem 30rem;
+      padding: 4rem 30rem 0.5rem 30rem;
     }
   }
 
   /* Media queries for standard desktop screens */
   @media (max-width: 1920px) {
     .footer-container {
-      padding: 2.5rem 2.125rem 0.5rem 2.125rem;
+      padding: 4rem 2.125rem 0.5rem 2.125rem;
     }
   }
 
