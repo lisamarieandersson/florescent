@@ -11,6 +11,7 @@
     max-width: calc(100% - 0.025rem);
     overflow: hidden;
     gap: 0.2rem;
+    height: 102rem;
   }
 
   .iris {
@@ -23,13 +24,6 @@
     max-width: 70%;
     height: 100%;
     object-fit: cover;
-  }
-
-  /* Media query for really really large desktop screens */
-  @media (max-width: 4096px) {
-    .hero-container {
-      height: 102rem;
-    }
   }
 
   /* Media query for large desktop screens */
