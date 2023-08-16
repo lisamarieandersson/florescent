@@ -1,6 +1,6 @@
 <div class="presentation-container">
   <div class="presentation-text">
-    <h2>Fragrances for your everyday life.</h2>
+    <h1>Fragrances for your everyday life.</h1>
     <p>
       The world around us is brimmed over with images, voices, and muddling
       messages from media. Yet with the line between reality and fiction being
@@ -21,7 +21,7 @@
     overflow: hidden;
     background-color: #f2efea;
     padding: 2.5rem 0;
-    margin-top: 2.5rem;
+    margin-top: 0.2rem;
   }
 
   .presentation-text {
@@ -29,7 +29,7 @@
     text-align: center;
   }
 
-  h2 {
+  h1 {
     margin-top: 1rem;
   }
 
