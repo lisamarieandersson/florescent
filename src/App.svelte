@@ -4,7 +4,7 @@
   import Header from './Header.svelte';
   import Hero from './Hero.svelte';
   import Presentation from './Presentation.svelte';
-  import ProductList from './ProductList.svelte';
+  import ProductContainer from './ProductContainer.svelte';
   import ToppBanner from './ToppBanner.svelte';
 </script>
 
@@ -16,7 +16,7 @@
 <main>
   <Hero />
   <Presentation />
-  <ProductList />
+  <ProductContainer />
   <Presentation />
   <Contact />
 </main>
