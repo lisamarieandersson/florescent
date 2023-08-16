@@ -97,7 +97,6 @@
 
     .orchids,
     .perfume-bottle {
-      flex: 1;
       max-width: 100%;
       height: auto;
     }
