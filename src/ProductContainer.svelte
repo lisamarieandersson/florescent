@@ -43,7 +43,7 @@
 
 <div class="product-container">
   <div class="product-header">
-    <h2>Discover our products</h2>
+    <h2>Shop our latest products</h2>
   </div>
   <div class="product-list">
     {#each products as product (product.name)}
@@ -73,6 +73,10 @@
     justify-content: center;
     max-width: 100%;
     overflow: hidden;
+  }
+
+  h2 {
+    font-weight: 400;
   }
 
   /* Media query for large desktop screens */
