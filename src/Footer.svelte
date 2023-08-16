@@ -13,7 +13,7 @@
     </div>
     <div class="contact">
       <h3>Contact Us</h3>
-      <p>Customer Care</p>
+      <p>Customer Service</p>
       <p>Live Chat</p>
       <p>FAQ</p>
       <p>Store Locator</p>
@@ -52,7 +52,7 @@
   .footer-container {
     margin-top: 2.5rem;
     padding: 2.5rem 50rem 1rem 50rem;
-    background-color: #f2efea;
+    background: #f2efea;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,14 +170,6 @@
 
     .symbol-and-logo {
       padding-top: 2rem;
-    }
-  }
-
-  /* Media query for tablet and mobile screens */
-  @media (max-width: 798px) {
-    .footer-container {
-      padding-top: 2rem;
-      margin-top: 2rem;
     }
   }
 
