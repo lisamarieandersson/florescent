@@ -45,11 +45,6 @@
 
   /* Media query for tablet and mobile screens */
   @media (max-width: 768px) {
-    .presentation-container {
-      padding: 2rem 0;
-      margin-top: 2rem;
-    }
-
     .presentation-text {
       max-width: 60%;
     }
