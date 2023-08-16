@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Contact from './Contact.svelte';
   import Footer from './Footer.svelte';
   import Header from './Header.svelte';
   import Hero from './Hero.svelte';
@@ -16,6 +17,8 @@
   <Hero />
   <Presentation />
   <ProductList />
+  <Presentation />
+  <Contact />
 </main>
 
 <footer>
