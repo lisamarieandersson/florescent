@@ -77,8 +77,7 @@
   @media (max-width: 640px) {
     .product-list {
       flex-direction: column;
-      padding: 0 0.938rem;
-      margin-top: 2rem;
+      padding: 0 0.875rem;
     }
   }
 </style>
