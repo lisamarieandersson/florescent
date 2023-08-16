@@ -40,6 +40,11 @@
     display: flex;
     flex-direction: row;
     gap: 6rem;
+    padding: 0 34rem;
+  }
+
+  .contact-headline {
+    text-align: center;
   }
 
   .send-message {
@@ -64,12 +69,27 @@
     .contact-container {
       padding: 0 30rem;
     }
+
+    .contact-content {
+      padding: 0 15rem;
+    }
   }
 
   /* Media queries for standard desktop screens */
   @media (max-width: 1920px) {
     .contact-container {
       padding: 0 2.125rem;
+    }
+  }
+
+  /* Media query for standard desktop screens */
+  @media (max-width: 1440px) {
+    .contact-content {
+      padding: 0;
+    }
+
+    .contact-headline {
+      text-align: left;
     }
   }
 
@@ -80,12 +100,19 @@
       flex-direction: column;
       gap: 0.5rem;
     }
+    h2 {
+      margin-bottom: 1rem;
+    }
   }
 
   /* Media query for mobile screens */
   @media (max-width: 640px) {
     .contact-container {
       padding: 0 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
     }
   }
 </style>
