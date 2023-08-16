@@ -3,22 +3,25 @@
 </script>
 
 <div class="contact-container">
-  <div class="line" />
-  <div class="contact-headline"><h2>Contact us</h2></div>
+  <div class="contact-header"><h2>Contact us</h2></div>
   <div class="contact-content">
     <div class="customer-service-container">
-      <h3>Help & FAQ</h3>
-      <p>info@florescent-fragrances.com</p>
-      <h3>Customer Service</h3>
+      <h3 class="margin-bottom">Help & FAQ</h3>
+      <div class="line" />
+      <p class="padding-bottom">info@florescent-fragrances.com</p>
+      <h3 class="margin-bottom">Customer Service</h3>
+      <div class="line" />
       <p>Monday to Saturday</p>
       <p>10:00 AM to 06:00 PM (CEST)</p>
       <p>+46 411 419 35</p>
       <p>Live Chat</p>
     </div>
     <div class="press-wholesale-container">
-      <h3>Press Inquiries</h3>
-      <p>press@florescent-fragrances.com</p>
-      <h3>Wholesale Inquiries</h3>
+      <h3 class="margin-bottom">Press Inquiries</h3>
+      <div class="line" />
+      <p class="padding-bottom">press@florescent-fragrances.com</p>
+      <h3 class="margin-bottom">Wholesale Inquiries</h3>
+      <div class="line" />
       <p>global_business@florescent-fragrances.com</p>
     </div>
     <div class="send-message">
@@ -32,7 +35,6 @@
   .contact-container {
     display: flex;
     flex-direction: column;
-    margin-top: 2.5rem;
     padding: 0 50rem;
   }
 
@@ -43,8 +45,9 @@
     padding: 0 34rem;
   }
 
-  .contact-headline {
+  .contact-header {
     text-align: center;
+    height: 5rem;
   }
 
   .send-message {
@@ -54,6 +57,14 @@
   .line {
     height: 0.025rem;
     background: #000000;
+  }
+
+  .padding-bottom {
+    padding-bottom: 1rem;
+  }
+
+  .margin-bottom {
+    margin-bottom: 0.4rem;
   }
 
   h3 {
@@ -88,7 +99,7 @@
       padding: 0;
     }
 
-    .contact-headline {
+    .contact-header {
       text-align: left;
     }
   }
@@ -100,19 +111,12 @@
       flex-direction: column;
       gap: 0.5rem;
     }
-    h2 {
-      margin-bottom: 1rem;
-    }
   }
 
   /* Media query for mobile screens */
   @media (max-width: 640px) {
     .contact-container {
       padding: 0 1.5rem;
-    }
-
-    h2 {
-      font-size: 1.8rem;
     }
   }
 </style>
