@@ -1,14 +1,16 @@
 <div class="presentation-container">
   <div class="presentation-text">
     <h1>Fragrances for your everyday life.</h1>
-    <p>
-      The world around us is brimmed over with images, voices, and muddling
-      messages from media. Yet with the line between reality and fiction being
-      blurred, genuineness of inner self and calmness in voice should seep
-      deeper within. Stories of Florescent shall begin from starting simple
-      rituals in the midst of all the hustles and listening closer to inner
-      voice, not being swayed by messages from outside.
+    <p class="padding-bottom">
+      Florescent is a lifestyle fragrance brand created for, and inspired by
+      your most honest self. Based on the finest raw materials and delicate
+      perfumery, we present a fragrance line that creates a mysterious and
+      unique mood. You'll find that most of our scents are inspired by our love
+      for florals, but in our fragrance collection you'll also find fragrances
+      with more woody and earthy tones. All ready to be a part of your scented
+      wardrobe.
     </p>
+    <button>Read more</button>
   </div>
 </div>
 
@@ -20,17 +22,34 @@
     max-width: 100%;
     overflow: hidden;
     background-color: #f2efea;
-    padding: 2.5rem 0;
-    margin-top: 0.2rem;
+    padding: 4rem 0;
+    margin-top: 4rem;
   }
 
   .presentation-text {
-    max-width: 25%;
+    max-width: 20%;
     text-align: center;
   }
 
+  .padding-bottom {
+    padding-bottom: 1rem;
+  }
+
+  .presentation-text button {
+    border-radius: 0;
+    font-family: 'Fraunces', serif;
+    font-weight: 300;
+    background: #000000;
+    color: #ffffff;
+    border: solid 0.025rem #000000;
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+
   h1 {
-    margin-top: 1rem;
+    margin-top: 0;
   }
 
   /* Media query for large desktop screens */
@@ -47,10 +66,17 @@
     }
   }
 
+  /* Media query for smaller desktop and tablet screens */
+  @media (max-width: 1024px) {
+    .presentation-container {
+      margin-top: 2rem;
+    }
+  }
+
   /* Media query for tablet and mobile screens */
   @media (max-width: 768px) {
     .presentation-text {
-      max-width: 60%;
+      max-width: 80%;
     }
   }
 </style>
