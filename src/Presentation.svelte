@@ -7,7 +7,7 @@
       perfumery, we present a fragrance line that creates a mysterious and
       unique mood. You'll find that most of our scents are inspired by our love
       for florals, but in our fragrance collection you'll also find fragrances
-      with more woody and earthy tones. All ready to be a part of your scented
+      with more woody and earthy tones. All waiting to be a part of your scented
       wardrobe.
     </p>
     <button>Read more</button>
