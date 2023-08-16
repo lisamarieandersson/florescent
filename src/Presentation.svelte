@@ -29,6 +29,10 @@
     text-align: center;
   }
 
+  h2 {
+    margin-top: 1rem;
+  }
+
   /* Media query for large desktop screens */
   @media (max-width: 2560px) {
     .presentation-text {
