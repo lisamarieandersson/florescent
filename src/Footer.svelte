@@ -50,7 +50,7 @@
 
 <style>
   .footer-container {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
     padding: 2.5rem 50rem 1rem 50rem;
     background: #f2efea;
     display: flex;
