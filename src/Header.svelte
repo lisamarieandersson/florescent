@@ -85,9 +85,6 @@
 
   /* Media query for tablet and mobile screens */
   @media (max-width: 768px) {
-    .header-container {
-      padding: 0 0.938rem;
-    }
     .logo-desktop {
       display: none;
     }
@@ -103,7 +100,14 @@
     }
     .mobile-hamburger {
       display: block;
-      padding-left: 0.5rem;
+      padding-left: 0.625rem;
+    }
+  }
+
+  /* Media query for mobile screens */
+  @media (max-width: 640px) {
+    .header-container {
+      padding: 0 0.875rem;
     }
   }
 
