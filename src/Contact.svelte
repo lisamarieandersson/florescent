@@ -3,6 +3,7 @@
 </script>
 
 <div class="contact-container">
+  <div class="line" />
   <div class="contact-header"><h2>Contact us</h2></div>
   <div class="contact-content">
     <div class="customer-service-container">
@@ -36,6 +37,7 @@
     display: flex;
     flex-direction: column;
     padding: 0 50rem;
+    margin-top: 4rem;
   }
 
   .contact-content {
@@ -65,10 +67,6 @@
 
   .margin-bottom {
     margin-bottom: 0.4rem;
-  }
-
-  h3 {
-    font-weight: 400;
   }
 
   p {
