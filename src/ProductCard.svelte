@@ -20,7 +20,7 @@
   <div class="line" />
   <p class="description">{product.description}</p>
   <p class="read-more">Read more</p>
-  <button>Add to Cart</button>
+  <button>Add to Bag</button>
 </div>
 
 <style>
