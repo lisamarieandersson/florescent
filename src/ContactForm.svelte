@@ -40,7 +40,7 @@
     placeholder="Write your message here"
     bind:value={message}
   />
-  <button class="contact-button" on:click={handleSubmit}>Submit</button>
+  <button class="contact-button" on:click={handleSubmit}>Send</button>
 </div>
 
 <style>
