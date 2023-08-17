@@ -1,11 +1,11 @@
 <script lang="ts">
+  import CallToAction from './CallToAction.svelte';
   import Contact from './Contact.svelte';
   import Footer from './Footer.svelte';
   import Header from './Header.svelte';
   import Hero from './Hero.svelte';
   import Presentation from './Presentation.svelte';
   import ProductContainer from './ProductContainer.svelte';
-  import ShopNowCollage from './ShopNowCollage.svelte';
   import ToppBanner from './ToppBanner.svelte';
 </script>
 
@@ -16,7 +16,7 @@
 
 <main>
   <Hero />
-  <ShopNowCollage />
+  <CallToAction />
   <ProductContainer />
   <Presentation />
   <Contact />
