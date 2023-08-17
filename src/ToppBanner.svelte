@@ -12,7 +12,6 @@
   }
 
   p {
-    font-weight: 300;
     color: #ffffff;
     font-size: 0.875rem;
   }
