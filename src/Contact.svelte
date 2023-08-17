@@ -26,7 +26,7 @@
       <p>global_business@florescent-fragrances.com</p>
     </div>
     <div class="send-message">
-      <h3>Send us a message</h3>
+      <h3>Send Us A Message</h3>
       <ContactForm />
     </div>
   </div>
