@@ -1,9 +1,9 @@
 <div class="menu">
   <ul>
-    <li><a href="#">Shop</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Stockists</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="link">Shop</a></li>
+    <li><a href="link">About</a></li>
+    <li><a href="link">Stockists</a></li>
+    <li><a href="link">Contact</a></li>
   </ul>
 </div>
 
