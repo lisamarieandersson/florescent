@@ -12,7 +12,7 @@
         'The fresh bitters of lime, elegance of bergamot, and calmness of cedarwood coexist and deliver a moment of refresh.',
     },
     {
-      name: 'Moonlight Sundays',
+      name: 'Atlas Moon',
       category: 'Perfume',
       image: '../mob_baldafrique_edp-100_d_1.jpeg',
       price: 1500,
