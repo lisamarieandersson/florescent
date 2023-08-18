@@ -3,7 +3,7 @@
 
   const products = [
     {
-      name: 'Rose Noir',
+      name: 'Enchanted April',
       category: 'Perfume',
       image: '../mob_rosenoir_edp-100_c_1.jpeg',
       price: 1500,
@@ -12,7 +12,7 @@
         'The fresh bitters of lime, elegance of bergamot, and calmness of cedarwood coexist and deliver a moment of refresh.',
     },
     {
-      name: 'Bal D Afrique',
+      name: 'Moonlight Sundays',
       category: 'Perfume',
       image: '../mob_baldafrique_edp-100_d_1.jpeg',
       price: 1500,
@@ -21,22 +21,22 @@
         'Epicene beauty blended with warmth of sweet suede, calming cedarwood, vanilla, and musk.',
     },
     {
-      name: 'Blanche',
+      name: 'Iris Haze',
       category: 'Perfume',
       image: '../mob_blanche_edp-100_d.jpeg',
       price: 1500,
       volume: '100 ml',
       description:
-        'Serene and languid moments culminated by a harmony of vetiver, sandalwood, and fresh cardamom.',
+        'Serene and languid moments culminated by a harmony of iris, vetiver, sandalwood, and fresh cardamom.',
     },
     {
-      name: 'Sundazed',
+      name: 'Peony Whispers',
       category: 'Perfume',
       image: '../mob_sundazed_edp-100_a.jpeg',
       price: 1500,
       volume: '100 ml',
       description:
-        'A remembrance of the purest seasons through fresh, yet warm scents of neroli and orange blossom.',
+        'A remembrance of the purest seasons through fresh, yet warm scents of peony, neroli and orange blossom.',
     },
   ];
 </script>
