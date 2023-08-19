@@ -1,5 +1,4 @@
 <img src="./public/symbol-florescent.svg" width="200rem"/>
-<br>
 <img src="./public/logotyp-florescent.svg" width="200rem"/>
 
 ## About
