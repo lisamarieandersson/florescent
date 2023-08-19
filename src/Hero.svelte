@@ -1,6 +1,6 @@
 <div class="hero-container">
   <img class="iris" src="../iris.jpeg" alt="iris flower" />
-  <img class="hero" src="../hero.jpeg" alt="perfume bottles" />
+  <img class="hero" src="../hero.png" alt="perfume bottles" />
 </div>
 
 <style>
