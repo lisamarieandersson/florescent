@@ -48,6 +48,11 @@
     cursor: pointer;
   }
 
+  button:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+
   h1 {
     margin-top: 0;
   }
