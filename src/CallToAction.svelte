@@ -1,6 +1,6 @@
 <div class="call-to-action-container">
   <img class="orchids" src="../orchids.jpeg" alt="orchid flowers" />
-  <img class="perfume-bottle" src="perfume-bottle.jpeg" alt="perfume bottle" />
+  <img class="perfume-bottle" src="perfume-bottle.png" alt="perfume bottle" />
   <div class="text-container">
     <h2>Discover our collection</h2>
     <p class="padding-bottom">
