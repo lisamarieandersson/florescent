@@ -5,7 +5,7 @@
     {
       name: 'Enchanted April',
       category: 'Perfume',
-      image: '../enchanted-april.png',
+      image: '../enchanted-april-edp.png',
       price: 1500,
       volume: '100 ml',
       description:
@@ -14,7 +14,7 @@
     {
       name: 'Atlas Moon',
       category: 'Perfume',
-      image: '../atlas-moon.png',
+      image: '../atlas-moon-edp.png',
       price: 1500,
       volume: '100 ml',
       description:
@@ -23,7 +23,7 @@
     {
       name: 'Iris Haze',
       category: 'Perfume',
-      image: '../iris-haze.png',
+      image: '../iris-haze-edp.png',
       price: 1500,
       volume: '100 ml',
       description:
@@ -32,7 +32,7 @@
     {
       name: 'Peony Whispers',
       category: 'Perfume',
-      image: '../peony-whispers.png',
+      image: '../peony-whispers-edp.png',
       price: 1500,
       volume: '100 ml',
       description:
