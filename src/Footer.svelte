@@ -39,11 +39,6 @@
       src="../symbol-florescent.svg"
       alt="symbol florescent"
     />
-    <img
-      class="logotype"
-      src="../logotyp-florescent.svg"
-      alt="logotype florescent"
-    />
   </div>
   <div class="copy"><p>© 2023 Florescent</p></div>
 </div>
@@ -124,13 +119,6 @@
   }
 
   .symbol {
-    width: 6rem;
-    height: auto;
-    margin: 0 auto;
-  }
-
-  .logotype {
-    padding-top: 0.8rem;
     width: 6rem;
     height: auto;
     margin: 0 auto;
